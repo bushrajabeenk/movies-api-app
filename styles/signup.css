@@ -1,0 +1,55 @@
+#links {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  margin-bottom: 50px;
+}
+
+#links > a {
+  margin-right: 50px;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+#signup-form-div {
+  width: 23%;
+  height: 400px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#headingg {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+#name,
+#number,
+#emaill,
+#password {
+  width: 180px;
+  height: 26px;
+  border-radius: 3px;
+  border: 1px solid rgb(105, 104, 104);
+}
+
+#submbtn {
+  width: 110px;
+  height: 27px;
+  color: white;
+  background-color: teal;
+  border-radius: 4px;
+  border: 1px solid teal;
+}

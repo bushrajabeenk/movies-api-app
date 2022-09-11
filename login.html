@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/login.css" />
+  </head>
+
+  <body>
+    <div id="links">
+      <a href="index.html">Home</a>
+      <a href="signup.html">SignUp</a>
+      <a id="loginn" href="login.html">LogIn</a>
+    </div>
+    <div id="login-form-div">
+      <form id="loginForm">
+        <!--Write form input elements here-->
+        <div id="heading">LogIn</div>
+        <div>
+          <br />
+          <input
+            id="email"
+            required
+            type="email"
+            placeholder="Enter your Email"
+          />
+          <p id="emailError"></p>
+        </div>
+        <div>
+          <br />
+          <input
+            id="pass"
+            required
+            type="password"
+            placeholder="Enter your Password"
+          />
+          <p id="passError"></p>
+        </div>
+        <div>
+          <br />
+          <input id="subbtn" type="submit" value="LogIn" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+<script src="./scripts/login.js"></script>

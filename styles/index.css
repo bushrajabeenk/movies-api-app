@@ -1,0 +1,70 @@
+#links {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+#links > a {
+  margin-right: 50px;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+#slideshow {
+  margin-bottom: 50px;
+}
+
+#imgs {
+  width: 100%;
+  height: 300px;
+}
+
+#sort-buttons {
+  margin-bottom: 40px;
+  margin-right: 5%;
+  float: right;
+}
+
+#sort-lh,
+#sort-hl {
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 100px;
+  height: 35px;
+  width: 200px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#movies {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+#innerDiv {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 150px;
+}
+
+#innerDiv > div:first-child {
+  margin-right: 30px;
+}
+
+#imgm {
+  height: 100%;
+  width: 200px;
+}
